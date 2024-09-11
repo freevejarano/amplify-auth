@@ -1,5 +1,4 @@
 import {defineAuth, secret} from "@aws-amplify/backend";
-import 'dotenv/config';
 
 export const auth = defineAuth({
   loginWith: {
