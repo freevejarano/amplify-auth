@@ -11,7 +11,7 @@ import { messages } from './translations';
 import { IntlProvider, FormattedMessage, useIntl } from "react-intl"; 
 
 // Import the Chat component from your chatbot directory
-import Chat from "../src/chatbot/src/Chat"; // Adjust the path if necessary
+import Chat from "../src/chatbot/src/Chat.js"; // Adjust the path if necessary
 
 Amplify.configure(outputs);
 const client = generateClient<Schema>();
